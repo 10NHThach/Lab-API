@@ -1,0 +1,6 @@
+2024-05-14 15:36:00.153 +07:00 [INF] User profile is available. Using 'C:\Users\ACER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 15:36:00.436 +07:00 [INF] Now listening on: https://localhost:7092
+2024-05-14 15:36:00.437 +07:00 [INF] Now listening on: http://localhost:5128
+2024-05-14 15:36:00.439 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 15:36:00.440 +07:00 [INF] Hosting environment: Development
+2024-05-14 15:36:00.440 +07:00 [INF] Content root path: C:\Users\ACER\OneDrive\Desktop\Folder-Tổng\LTW2\LabAPI\LabAPI

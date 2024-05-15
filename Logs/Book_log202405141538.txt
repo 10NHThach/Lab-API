@@ -1,0 +1,16 @@
+2024-05-14 15:38:01.592 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7092/api/User/Login application/json 85
+2024-05-14 15:38:01.616 +07:00 [INF] Executing endpoint 'LabAPI.Controllers.UserController.Login (LabAPI)'
+2024-05-14 15:38:01.640 +07:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LabAPI.Models.DTO.LoginResponseDTO) on controller LabAPI.Controllers.UserController (LabAPI).
+2024-05-14 15:38:03.070 +07:00 [INF] Executed DbCommand (57ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-05-14 15:38:03.327 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-05-14 15:38:03.370 +07:00 [INF] Executing OkObjectResult, writing value of type 'LabAPI.Models.DTO.LoginResponseDTO'.
+2024-05-14 15:38:03.379 +07:00 [INF] Executed action LabAPI.Controllers.UserController.Login (LabAPI) in 1733.0048ms
+2024-05-14 15:38:03.382 +07:00 [INF] Executed endpoint 'LabAPI.Controllers.UserController.Login (LabAPI)'
+2024-05-14 15:38:03.389 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7092/api/User/Login application/json 85 - 200 - application/json;+charset=utf-8 1797.2274ms
