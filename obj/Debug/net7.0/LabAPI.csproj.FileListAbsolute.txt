@@ -166,3 +166,4 @@ C:\Users\ACER\OneDrive\Desktop\Folder-Tổng\LTW2\LabAPI\LabAPI\bin\Debug\net7.0
 C:\Users\ACER\OneDrive\Desktop\Folder-Tổng\LTW2\LabAPI\LabAPI\bin\Debug\net7.0\Serilog.Sinks.Console.dll
 C:\Users\ACER\OneDrive\Desktop\Folder-Tổng\LTW2\LabAPI\LabAPI\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
 C:\Users\ACER\OneDrive\Desktop\Folder-Tổng\LTW2\LabAPI\LabAPI\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\ACER\OneDrive\Desktop\Folder-Tổng\LTW2\LabAPI\LabAPI\obj\Debug\net7.0\LabAPI.sourcelink.json
